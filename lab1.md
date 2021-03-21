@@ -1,8 +1,9 @@
 # การทดลองที่ 1 เรื่อง การเขียนโปรแกรมเพื่อรันบนไมโครคอนโทรเลอร์
 
 ## วัตถุประสงค์
-1.
-
+1. เพื่อทราบการใช้คำสั่งต่างๆ ที่จะรันโปรแกรม
+2. เพื่อทราบข้อมูลพื้นฐานของไมโครคอนโทรเลอร์ที่ใช้ในการทดลอง
+3. เพื่อทราบการเขียนโปรแกรมเพื่อรันบนไมโครคอนโทรเลอร์
 
 ## อุปกรณ์ที่ใช้
 1. ไมโครคอนโทรเลอร์ (ESP-01)
@@ -10,13 +11,18 @@
 3. CPU
 4. เสาอากาศสำหรับไวไฟ
 
+## ศึกษาข้อมูลเบื้องต้น
+1. 01 run example 1 : https://www.youtube.com/watch?v=NLIUsWLEpmg
+2. src code ของโปรแกรม 01_Serial-Monitor : https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/src/main.cpp
+
 ## วิธีการทำทดลอง
-1. ต่อไมโครคอนโทรเลอร์
+1. ต่อไมโครคอนโทรเลอร์เข้ากับซีเรียล
 2. เข้าcommand prompt
 3. เข้าตัวอย่างโปรแกรมจากโดยใช้พิมพ์คำสั่ง cd pattani ในหน้า command prompt
 4. เลือกตัวอย่างโปรแกรมคำสั่ง cd 01_Serial-Monitor
-5. vi src/main.cpp
-6. vi platformio.ini 
+5. vi src/main.cpp ![image](https://user-images.githubusercontent.com/80879772/111911851-b79bc300-8a99-11eb-9715-00a3f250301a.png)
+
+6. vi platformio.ini ![image](https://user-images.githubusercontent.com/80879772/111911794-83c09d80-8a99-11eb-8f0f-918b05017da2.png)
 7. อัพโหลดโปรแกรมเข้าไมโครคอนโทรเลอร์ด้วยคำสัง pio run -t upload
 8. กดปุ่มรีเซตที่ตัวไมโครคอนโทรเลอร์
 9. pio device monitor เพื่อดูผลลัพท์
