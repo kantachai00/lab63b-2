@@ -20,14 +20,14 @@
 2. เข้าcommand prompt
 3. เข้าตัวอย่างโปรแกรมจากโดยใช้พิมพ์คำสั่ง cd pattani ในหน้า command prompt
 4. เลือกตัวอย่างโปรแกรมคำสั่ง cd 01_Serial-Monitor
-5. vi src/main.cpp เมื่อกด Enter จะขึ้นดังรูปนี้
+5. พิมพ์คำสั่ง vi src/main.cpp เมื่อกด Enter จะขึ้นดังรูปนี้
       
       
       
       
       ![image](https://user-images.githubusercontent.com/80879772/111911851-b79bc300-8a99-11eb-9715-00a3f250301a.png)
 
-6. vi platformio.ini เมื่อกด Enter จะขึ้นดังรูปนี้
+6. พิมพ์คำสั่ง vi platformio.ini เมื่อกด Enter จะขึ้นดังรูปนี้
       
       
       
