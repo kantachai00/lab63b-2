@@ -20,7 +20,7 @@
 2. เข้าcommand prompt
 3. เข้าตัวอย่างโปรแกรมจากโดยใช้พิมพ์คำสั่ง **cd pattani** ในหน้า command prompt
 4. เลือกตัวอย่างโปรแกรมคำสั่ง **cd 01_Serial-Monitor**
-5. พิมพ์คำสั่ง **vi src/main.cpp** เมื่อกด Enter จะขึ้นดังรูปนี้
+5. พิมพ์คำสั่ง **vi src/main.cpp** เมื่อกด Enter จะขึ้นข้อมูลดังนี้
       
       
       
