@@ -20,23 +20,36 @@
 2. เข้าcommand prompt
 3. เข้าตัวอย่างโปรแกรมจากโดยใช้พิมพ์คำสั่ง cd pattani ในหน้า command prompt
 4. เลือกตัวอย่างโปรแกรมคำสั่ง cd 01_Serial-Monitor
-5. vi src/main.cpp 
+5. vi src/main.cpp เมื่อกด Enter จะขึ้นดังรูปนี้
       
       
       
       
       ![image](https://user-images.githubusercontent.com/80879772/111911851-b79bc300-8a99-11eb-9715-00a3f250301a.png)
 
-6. vi platformio.ini 
+6. vi platformio.ini เมื่อกด Enter จะขึ้นดังรูปนี้
       
       
       
       
       ![image](https://user-images.githubusercontent.com/80879772/111911794-83c09d80-8a99-11eb-8f0f-918b05017da2.png)
 
-7. อัพโหลดโปรแกรมเข้าไมโครคอนโทรเลอร์ด้วยคำสัง pio run -t upload
+7. อัพโหลดโปรแกรมเข้าไมโครคอนโทรเลอร์ด้วยคำสัง pio run -t upload เมื่อกด Enter จะขึ้นดังรูปนี้
+
+
+
+
+
+
+     ![image](https://user-images.githubusercontent.com/80879772/111912103-bfa83280-8a9a-11eb-903c-06a83b5ec517.png)
+
 8. กดปุ่มรีเซตที่ตัวไมโครคอนโทรเลอร์
 9. pio device monitor เพื่อดูผลลัพท์
+
+
+      
+      ![image](https://user-images.githubusercontent.com/80879772/111912138-e9f9f000-8a9a-11eb-8f50-1caa780a3216.png)
+
 
 ## การบันทึกผลการทดลอง
 จากการใช้คำสั่ง vi src/main.cpp ทำให้เราทราบว่าโปรแกรมตัวนี้ใช้เพื่อทดสอบโดยมี 2 ส่วน ดังนี้
