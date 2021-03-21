@@ -101,6 +101,7 @@ void loop()
 
 
 ![image](https://user-images.githubusercontent.com/80879772/111919198-4f5dd900-8abb-11eb-9539-e2264f79ed54.png)![image](https://user-images.githubusercontent.com/80879772/111919180-32c1a100-8abb-11eb-900e-264a6fbd1baa.png)
+    
     กดปุ่ม                                  ปล่อยปุ่ม
 
 12. ต่อตัวเซนเซอร์กับ cpu ตามภาพ
