@@ -13,7 +13,7 @@
 
 ## ศึกษาข้อมูลเบื้องต้น
 1. 03 run example 3 : https://www.youtube.com/watch?v=CCnN1WJsXQY
-2. src code ของโปรแกรม 03_Output-Port : https://github.com/choompol-boonmee/lab63b/blob/master/examples/03_Output-Port/src/main.cppl-Monitor/src/main.cpp
+2. src code ของโปรแกรม 03_Output-Port : https://github.com/choompol-boonmee/lab63b/blob/master/examples/03_Output-Port/src/main.cpp
 
 ## วิธีการทำทดลอง
 1. เอาอแดปเตอร์ต่อกับตัว USB to seria
@@ -82,8 +82,8 @@
 
 
 ![image](https://user-images.githubusercontent.com/80879772/111914895-7f4eb180-8aa6-11eb-9819-1f6e211e950a.png)   ![image](https://user-images.githubusercontent.com/80879772/111914938-a9a06f00-8aa6-11eb-9e0c-ba3749274b68.png)
-
-
+	
+off on
 
 
 
