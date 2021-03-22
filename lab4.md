@@ -14,7 +14,7 @@
 7. ตัวเซนเซอร์แสง
 
 ## ศึกษาข้อมูลเบื้องต้น
-1. 04 run example 4t : https://www.youtube.com/watch?v=nFqoZT26U5k
+1. 04 run example 4 : https://www.youtube.com/watch?v=nFqoZT26U5k
 2. src code ของโปรแกรม 04_Input-Port : https://github.com/choompol-boonmee/lab63b/blob/master/examples/04_Input-Port/src/main.cpp
 ## วิธีการทำทดลอง
 1. เอาอแดปเตอร์ต่อกับตัว USB to seria (หมายเหตุ ตัวอแดปเตอร์ที่ใช้ในการทดลองนี้มีการต่อกับ LED )
