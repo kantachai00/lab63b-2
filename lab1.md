@@ -61,7 +61,8 @@ void loop()
 
 
       
-      ![image](https://user-images.githubusercontent.com/80879772/111912138-e9f9f000-8a9a-11eb-8f50-1caa780a3216.png)
+      ![image](https://user-images.githubusercontent.com/80879772/112034335-f2245f00-8b70-11eb-9e68-d67d1945da5d.png)
+
 
 
 ## การบันทึกผลการทดลอง
