@@ -21,13 +21,25 @@
 3. เข้าตัวอย่างโปรแกรมจากโดยใช้พิมพ์คำสั่ง **cd pattani** ในหน้า command prompt
 4. เลือกตัวอย่างโปรแกรมคำสั่ง **cd 01_Serial-Monitor**
 5. พิมพ์คำสั่ง **vi src/main.cpp** เมื่อกด Enter จะขึ้นข้อมูลดังนี้
-      
-      
-      
-      
-      ![image](https://user-images.githubusercontent.com/80879772/111911851-b79bc300-8a99-11eb-9715-00a3f250301a.png)
+```javascript
+#include <Arduino.h>
 
+int cnt = 0;
+
+void setup()
+{
+	Serial.begin(115200);
+}
+
+void loop()
+{
+	cnt++;
+	Serial.printf("PATTANI :%d\n",cnt);
+	delay(1000);
+}
+```            
 6. พิมพ์คำสั่ง **vi platformio.ini** เมื่อกด Enter จะขึ้นดังรูปนี้
+      
       
       
       
@@ -53,7 +65,6 @@
 
 ## การบันทึกผลการทดลอง
 
-
 จากการใช้คำสั่ง vi platformio.ini ทำให้เราได้ทราบข้อมูลดังนี้
 1. เป็น paltform ของ espressif8266                   
 2. bord ชื่อ esp01_1m
@@ -71,4 +82,19 @@
 โดยจากการทดลองการเขียนโปรแกรมเพื่อรันบนไมโครคอนโทรเลอร์จะเห็นว่าเมื่อเราอัพโหลดโปรแกรม 01_Serial-Monitor ลงในตัวไมโครคอนโทรเลอร์เรียบร้อยแล้ว และใช้คำสั่ง **pio device monitor** เพื่อดูการทำงานของไมโครคอนโทรเลอร์ ซึ่งหน้าจอจะขึ้นว่ามีการเปลี่ยนตัวแปรทุกๆ 1 วินาที ตามโปรแกรมที่เราได้อัพโหลดลงไป 
 
 ## คำถามหลังการทดลอง
-ถาม เราสามารถ
+ถาม ให้เลือก board มา 1 ตัว จาก https://platformio.org/ พร้อมบอก code ข้อมูลพื้นฐานของ board ที่เลือก
+
+ตอบ ESP32 (AI Thinker ESP32-CAM)
+โดยมีโค้ดดังนี้
+```javascript
+[env:esp32cam]
+platform = espressif32
+board = esp32cam
+
+; change microcontroller
+board_build.mcu = esp32
+
+; change MCU frequency
+board_build.f_cpu = 240000000L
+```       
+ซึ่งจากโค้ดสามารถบอกได้ว่า เป็น paltform ของ espressif32 bord ชื่อ esp32cam ใช้วิธีการเขียนโปรแกรมแบบ arduino
