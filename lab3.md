@@ -17,6 +17,7 @@
 ## ศึกษาข้อมูลเบื้องต้น
 1. 03 run example 3 : https://www.youtube.com/watch?v=CCnN1WJsXQY
 2. src code ของโปรแกรม 03_Output-Port : https://github.com/choompol-boonmee/lab63b/blob/master/examples/03_Output-Port/src/main.cpp
+3. relayคืออะไร : http://www.psptech.co.th/%E0%B8%A3%E0%B8%B5%E0%B9%80%E0%B8%A5%E0%B8%A2%E0%B9%8Crelay%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-15696.page
 
 ## วิธีการทำทดลอง
 1. เอาอแดปเตอร์ต่อกับตัว USB to seria (หมายเหตุ ตัวอแดปเตอร์ที่ใช้ในการทดลองนี้มีการต่อกับ LED )
